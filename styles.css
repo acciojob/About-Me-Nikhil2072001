@@ -1,1 +1,37 @@
+.root-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+.left-container{
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+
+}
+.left-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.left-top2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.tabs{
+    
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+
+    
+}
+*{
+    margin: 10px;
+}
+img{
+    width: 150px;
+}
